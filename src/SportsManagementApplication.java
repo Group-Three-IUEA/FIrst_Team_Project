@@ -14,6 +14,12 @@ public class SportsManagementApplication {
 
         applicationFrame.setLayout(new BorderLayout());
 
+        ImageIcon icon = new ImageIcon(
+                getClass().getResource("/icon.jpg")
+        );
+
+        applicationFrame.setIconImage(icon.getImage());
+
 
         HeaderPanel headerPanel = new HeaderPanel();
         NavigationPanel navigationPanel = new NavigationPanel();
